@@ -40,8 +40,4 @@ Management system built using ReactJS. It is severless and uses localstorage.
 - Initally create a role using Roles button.
 - Adding Users: Click on the designated "Add User" button to add a new user.
 - Editing Users: Click on "Edit" button to modify data.
-- Deleting Users: Click the corresponding "Delete" button to permanently remove a user.
-- Role Management: When adding or editing a user, you can assign a specific role. This helps to control the access and permissions for each user.
-- LocalStorage Utilization: The application leverages the browser's localStorage for user data persistence. This entails:
-    - Saving user and role data modifications (addition, editing, deletion) locally to your browser.
-    - Maintaining user and role data even upon page refreshes, as it's retrieved from localStorage upon subsequent loads.
+- Deleting Users: Click the "Delete" button to remove amy user.
