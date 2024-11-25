@@ -40,12 +40,12 @@ function UserTable() {
 
   return (
     <div className="container mx-auto p-6">
-      <div className="bg-white shadow-lg rounded-lg p-6">
+      <div className="bg-black shadow-lg rounded-lg p-6">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold text-gray-700">User Management</h2>
+          <h2 className="text-2xl font-bold text-white">User Management</h2>
           <button
-            className="bg-blue-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-blue-600 transition duration-300"
+            className="bg-yellow-500 text-white font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-yellow-600 transition duration-300"
             onClick={() => setShowForm(true)}
           >
             {editingUser ? "Edit User" : "Add User"}
@@ -55,13 +55,13 @@ function UserTable() {
         {/* Users Table */}
         <div className="overflow-x-auto">
           <table className="table-auto w-full bg-gray-50 shadow-md rounded-lg">
-            <thead className="bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+            <thead className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white">
               <tr>
-                <th className="px-4 py-3 text-left">Name</th>
+                <th className="px-4 py-3 text-left">Username</th>
                 <th className="px-4 py-3 text-left">Email</th>
                 <th className="px-4 py-3 text-left">Role</th>
                 <th className="px-4 py-3 text-left">Status</th>
-                <th className="px-4 py-3 text-left">Actions</th>
+                <th className="px-4 py-3 text-left">Change</th>
               </tr>
             </thead>
             <tbody>
