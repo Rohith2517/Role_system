@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Role Management System is a React-based application designed to manage users and roles. It allows administrators to create, update, delete, and assign roles to users seamlessly. The interface is user-friendly, making it easy to manage permissions and maintain organizational hierarchy.
+The Role Management System is a React-based application designed to manage users and roles. It allows administrators to create, update, delete, and assign roles to users seamlessly. The interface is user-friendly, making it easy to manage permissions and maintain organizational hierarchy. It is serverless and uses local storage.
 
 ## Features
 
